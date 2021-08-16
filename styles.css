@@ -6,6 +6,8 @@
 
 body {
   background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
 }
 
 .main-container {
@@ -28,7 +30,7 @@ body {
 .main-heading {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -37,8 +39,10 @@ span {
 }
 
 .details {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   color: hsla(0, 0%, 100%, 0.75);
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 ul {
@@ -52,10 +56,16 @@ ul {
 
 .stat h3 {
   color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
 }
 
 .stat p {
   color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
 
 footer {
@@ -66,7 +76,8 @@ footer {
   font-size: 11px;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
-  padding-top: 10px;
+  padding: 10px 0;
+  font-size: 0.9rem;
 }
 
 .attribution a {
